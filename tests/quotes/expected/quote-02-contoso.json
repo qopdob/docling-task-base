@@ -1,0 +1,71 @@
+{
+  "quote_number": "BS-2026-102",
+  "quote_date": "2026-10-21",
+  "valid_until": "2026-11-20",
+  "currency": "EUR",
+  "seller": {
+    "company": "BrightSign Exhibits",
+    "representative": "Avery Kim",
+    "email": "avery.kim@brightsign.example",
+    "phone": "+1 415 555 0166"
+  },
+  "client": {
+    "company": "Contoso Events",
+    "contact_name": "Marcus Webb",
+    "email": "marcus.webb@contoso.example",
+    "phone": "+1 415 555 0117",
+    "address": "1 Event Plaza, San Francisco, CA 94105"
+  },
+  "line_items": [
+    {
+      "line_number": 1,
+      "item": "Backlit Booth",
+      "description": "10x20 backlit display",
+      "material": "Aluminum frame / fabric",
+      "quantity": 1,
+      "unit_price": "8450.00",
+      "total_price": "8450.00"
+    },
+    {
+      "line_number": 2,
+      "item": "Counter",
+      "description": "Modular reception counter",
+      "material": "Laminate / steel",
+      "quantity": 2,
+      "unit_price": "1150.00",
+      "total_price": "2300.00"
+    },
+    {
+      "line_number": 3,
+      "item": "Banner Stand",
+      "description": "Retractable banner stand",
+      "material": "Aluminum",
+      "quantity": 6,
+      "unit_price": "149.00",
+      "total_price": "894.00"
+    },
+    {
+      "line_number": 4,
+      "item": "LED Kit",
+      "description": "Booth lighting kit",
+      "material": "LED / aluminum",
+      "quantity": 4,
+      "unit_price": "275.00",
+      "total_price": "1100.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "12744.00",
+    "discount": "250.00",
+    "tax": "1061.99",
+    "shipping": "600.00",
+    "total": "14155.99"
+  },
+  "terms": {
+    "payment": "50% deposit with order; balance due on delivery.",
+    "delivery": "Delivery and installation within 3 weeks of approval.",
+    "warranty": "1-year hardware warranty on all display components.",
+    "validity": "Quotation valid for 30 days.",
+    "notes": "Venue electrical service and rigging by client."
+  }
+}

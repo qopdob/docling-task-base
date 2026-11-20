@@ -1,0 +1,71 @@
+{
+  "quote_number": "Q-2026-014",
+  "quote_date": "2026-11-03",
+  "valid_until": "2026-12-03",
+  "currency": "USD",
+  "seller": {
+    "company": "Acme Office Interiors",
+    "representative": "Jordan Lee",
+    "email": "jordan.lee@acmeoffice.example",
+    "phone": "+1 312 555 0142"
+  },
+  "client": {
+    "company": "Northwind Traders",
+    "contact_name": "Priya Nair",
+    "email": "priya.nair@northwind.example",
+    "phone": "+1 206 555 0198",
+    "address": "400 Market St, Seattle, WA 98101"
+  },
+  "line_items": [
+    {
+      "line_number": 1,
+      "item": "ErgoFlex Chair",
+      "description": "Mesh-back task chair",
+      "material": "Recycled aluminum / mesh",
+      "quantity": 24,
+      "unit_price": "289.00",
+      "total_price": "6936.00"
+    },
+    {
+      "line_number": 2,
+      "item": "SitStand Desk",
+      "description": "Height-adjustable desk",
+      "material": "Bamboo / steel",
+      "quantity": 12,
+      "unit_price": "649.00",
+      "total_price": "7788.00"
+    },
+    {
+      "line_number": 3,
+      "item": "Storage Cabinet",
+      "description": "Lockable 3-drawer cabinet",
+      "material": "Powder-coated steel",
+      "quantity": 8,
+      "unit_price": "329.00",
+      "total_price": "2632.00"
+    },
+    {
+      "line_number": 4,
+      "item": "Monitor Arm",
+      "description": "Dual monitor arm",
+      "material": "Aluminum",
+      "quantity": 24,
+      "unit_price": "129.00",
+      "total_price": "3096.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "20452.00",
+    "discount": "500.00",
+    "tax": "1646.04",
+    "shipping": "450.00",
+    "total": "22048.04"
+  },
+  "terms": {
+    "payment": "Net 30 days from invoice date.",
+    "delivery": "FOB origin, 4-6 weeks after receipt of order.",
+    "warranty": "5-year limited warranty on seating; 3 years on desks.",
+    "validity": "Prices valid for 30 days from quote date.",
+    "notes": "Installation included for orders over $15,000."
+  }
+}

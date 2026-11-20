@@ -1,0 +1,71 @@
+{
+  "quote_number": "MH-EST-2026-031",
+  "quote_date": "2026-08-09",
+  "valid_until": "2026-09-08",
+  "currency": "CHF",
+  "seller": {
+    "company": "Meridian HVAC",
+    "representative": "Sam Ortega",
+    "email": "sam.ortega@meridianhvac.example",
+    "phone": "+1 303 555 0170"
+  },
+  "client": {
+    "company": "Tailspin Facilities",
+    "contact_name": "Dana Brooks",
+    "email": "dana.brooks@tailspin.example",
+    "phone": "+1 303 555 0144",
+    "address": "700 Industrial Way, Denver, CO 80216"
+  },
+  "line_items": [
+    {
+      "line_number": 1,
+      "item": "Air Handler",
+      "description": "5-ton rooftop unit",
+      "material": "Galvanized steel",
+      "quantity": 2,
+      "unit_price": "6200.00",
+      "total_price": "12400.00"
+    },
+    {
+      "line_number": 2,
+      "item": "Ductwork",
+      "description": "Sealed rectangular duct",
+      "material": "Galvanized steel",
+      "quantity": 120,
+      "unit_price": "38.00",
+      "total_price": "4560.00"
+    },
+    {
+      "line_number": 3,
+      "item": "Thermostat",
+      "description": "Smart thermostat",
+      "material": "Plastic / electronics",
+      "quantity": 6,
+      "unit_price": "185.00",
+      "total_price": "1110.00"
+    },
+    {
+      "line_number": 4,
+      "item": "Filter Set",
+      "description": "MERV 13 filter set",
+      "material": "Synthetic media",
+      "quantity": 12,
+      "unit_price": "45.00",
+      "total_price": "540.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "18610.00",
+    "discount": "0.00",
+    "tax": "1395.75",
+    "shipping": "850.00",
+    "total": "20855.75"
+  },
+  "terms": {
+    "payment": "Net 30 days from invoice date.",
+    "delivery": "FOB Denver; 2-3 weeks after order.",
+    "warranty": "1-year parts and labor warranty.",
+    "validity": "Estimate valid for 30 days.",
+    "notes": "Permits and crane rental excluded."
+  }
+}

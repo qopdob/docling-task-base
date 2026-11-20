@@ -1,0 +1,71 @@
+{
+  "quote_number": "GP-Q-2026-077",
+  "quote_date": "2026-09-15",
+  "valid_until": "2026-10-15",
+  "currency": "GBP",
+  "seller": {
+    "company": "GreenPack Solutions",
+    "representative": "Noah Patel",
+    "email": "noah.patel@greenpack.example",
+    "phone": "+1 646 555 0188"
+  },
+  "client": {
+    "company": "Fabrikam Foods",
+    "contact_name": "Elena Rossi",
+    "email": "elena.rossi@fabrikam.example",
+    "phone": "+1 646 555 0121",
+    "address": "88 Harvest Ave, Rochester, NY 14604"
+  },
+  "line_items": [
+    {
+      "line_number": 1,
+      "item": "Kraft Box",
+      "description": "Custom printed kraft box",
+      "material": "Recycled kraft board",
+      "quantity": 5000,
+      "unit_price": "0.42",
+      "total_price": "2100.00"
+    },
+    {
+      "line_number": 2,
+      "item": "Insert",
+      "description": "Molded pulp insert",
+      "material": "Recycled pulp",
+      "quantity": 5000,
+      "unit_price": "0.18",
+      "total_price": "900.00"
+    },
+    {
+      "line_number": 3,
+      "item": "Label",
+      "description": "Compostable label",
+      "material": "PLA film",
+      "quantity": 10000,
+      "unit_price": "0.03",
+      "total_price": "300.00"
+    },
+    {
+      "line_number": 4,
+      "item": "Tape",
+      "description": "Water-activated tape",
+      "material": "Paper",
+      "quantity": 200,
+      "unit_price": "4.50",
+      "total_price": "900.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "4200.00",
+    "discount": "100.00",
+    "tax": "328.00",
+    "shipping": "250.00",
+    "total": "4678.00"
+  },
+  "terms": {
+    "payment": "Net 45 days from invoice date.",
+    "delivery": "3-4 weeks after artwork approval.",
+    "warranty": "Materials guaranteed against manufacturing defects.",
+    "validity": "Pricing valid for 30 days.",
+    "notes": "Artwork proof required before production."
+  }
+}

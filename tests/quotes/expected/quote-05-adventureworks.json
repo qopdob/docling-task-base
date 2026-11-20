@@ -1,0 +1,71 @@
+{
+  "quote_number": "PF-2026-208",
+  "quote_date": "2026-11-12",
+  "valid_until": "2026-12-12",
+  "currency": "USD",
+  "seller": {
+    "company": "PixelForge Studio",
+    "representative": "Maya Singh",
+    "email": "maya.singh@pixelforge.example",
+    "phone": "+1 801 555 0111"
+  },
+  "client": {
+    "company": "Adventure Works",
+    "contact_name": "Riley Chen",
+    "email": "riley.chen@adventureworks.example",
+    "phone": "+1 801 555 0139",
+    "address": "1200 Summit Blvd, Salt Lake City, UT 84101"
+  },
+  "line_items": [
+    {
+      "line_number": 1,
+      "item": "Kiosk",
+      "description": "55-inch interactive kiosk",
+      "material": "Powder-coated steel",
+      "quantity": 3,
+      "unit_price": "4200.00",
+      "total_price": "12600.00"
+    },
+    {
+      "line_number": 2,
+      "item": "Stand",
+      "description": "Floor stand, VESA mount",
+      "material": "Steel",
+      "quantity": 3,
+      "unit_price": "380.00",
+      "total_price": "1140.00"
+    },
+    {
+      "line_number": 3,
+      "item": "Installation",
+      "description": "On-site installation & setup",
+      "material": "N/A",
+      "quantity": 3,
+      "unit_price": "450.00",
+      "total_price": "1350.00"
+    },
+    {
+      "line_number": 4,
+      "item": "Content Setup",
+      "description": "Remote content setup",
+      "material": "N/A",
+      "quantity": 1,
+      "unit_price": "950.00",
+      "total_price": "950.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "16040.00",
+    "discount": "400.00",
+    "tax": "1212.10",
+    "shipping": "500.00",
+    "total": "17352.10"
+  },
+  "terms": {
+    "payment": "40% deposit; balance due on completion.",
+    "delivery": "6 weeks after receipt of order.",
+    "warranty": "2-year hardware warranty.",
+    "validity": "Pricing valid for 30 days.",
+    "notes": "Site power and network connections by client."
+  }
+}
